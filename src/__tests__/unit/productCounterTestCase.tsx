@@ -1,6 +1,6 @@
 import { api } from '../../services/api';
 
-describe('Produxt counter', async () => {
+describe('contagem de produto', async () => {
   it('ahsduashdasi', async () => {
     const response = await api.get('products')
     const products = response.data
