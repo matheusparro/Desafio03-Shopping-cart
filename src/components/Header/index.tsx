@@ -13,6 +13,9 @@ const Header = (): JSX.Element => {
 
   return (
     <Container>
+      <Link to="/">
+        Carrinho
+      </Link>
 
       <Cart to="/cart">
         <div>
